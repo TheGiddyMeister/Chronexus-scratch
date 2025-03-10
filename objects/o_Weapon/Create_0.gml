@@ -1,0 +1,14 @@
+weapon_type = "sword";
+uses = 25;
+max_uses = 25;
+range = 16;
+damage = 1;
+speed = 1;
+sprite = spr_sword;
+initialized = false;
+hspeed = 0;
+vspeed = 0;
+gravity = 0;
+start_x = x;
+start_y = y;
+show_debug_message("o_Weapon created at (" + string(x) + ", " + string(y) + ") with initial weapon_type = " + weapon_type);

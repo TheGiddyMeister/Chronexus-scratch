@@ -1,3 +1,7 @@
-// o_AttackHitbox - Create Event
-image_alpha = 0; // Make it invisible
-alarm[0] = 3; // Delete after 3 frames
+direction = 0;
+owner = noone;
+lifetime = 8;
+damage = 1;
+sprite_index = spr_slash; // Add this sprite (e.g., 32x32)
+visible = true;
+hit_enemies = ds_list_create();
