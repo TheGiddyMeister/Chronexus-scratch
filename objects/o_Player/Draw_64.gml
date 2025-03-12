@@ -1,6 +1,6 @@
 /// o_Player - Draw GUI Event (Health & Stamina Bar)
 
-// Draw GUI Event (Debugging Coyote Time Display)
+// Debugging Coyote Time Display
 draw_set_color(c_white);
 draw_text(display_get_width() - 150, 60, "Coyote Timer: " + string(self.coyote_timer));
 
@@ -27,5 +27,3 @@ draw_rectangle(bar_x, bar_y + bar_height + spacing, bar_x + (stamina / max_stami
 draw_set_color(c_white);
 draw_text(bar_x + 5, bar_y + 2, "HP: " + string(hp) + "/" + string(max_hp));
 draw_text(bar_x + 5, bar_y + bar_height + spacing + 2, "Stamina: " + string(stamina) + "/" + string(max_stamina));
-
-
