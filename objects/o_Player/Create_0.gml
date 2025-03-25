@@ -1,7 +1,10 @@
 // State Machine
 state = -1; // Uninitialized
 state_initialized = false;
-
+facing = 1; // Start facing right
+base_scale = image_xscale; // Store original scale (set this in editor or here, e.g., 1)
+jump_buffer = 0; // Initialize jump buffer
+// Add to existing variables like hspeed, vspeed, etc.
 // Health and Stamina
 hp = 100;
 max_hp = 100;
